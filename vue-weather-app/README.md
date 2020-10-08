@@ -1,5 +1,7 @@
 # vue-weather-app
 
+[Demo](https://vue-weather-arpit.netlify.app/) of the app.
+
 ## Project setup
 ```
 npm install
