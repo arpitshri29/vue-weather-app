@@ -22,6 +22,7 @@
           <div class="weather">{{weather.weather[0].main}}</div>
         </div>
       </div>
+      <div class="my-name">Arpit Shrivastava</div>
     </main>
   </div>
 </template>
@@ -90,7 +91,7 @@ export default {
     transition: 0.4s;
   }
 
-  #app.hot{
+  #app .hot{
     background-image: url("./assets/Hot.jpg");
   }
 
@@ -98,6 +99,18 @@ export default {
     min-height: 100vh;
     padding: 25px;
     background-image: linear-gradient(to bottom, rgba(0,0,0,0.25), rgba(0,0,0,0.5));
+    display: flex;
+    flex-direction: column;
+  }
+
+  main .my-name{
+      color: #ffffff;
+      font-size: 32px;
+      opacity: .4;
+      text-align: center;
+      bottom: 10px;
+      right: 10px;
+      position: absolute;
   }
 
   .search-box{
